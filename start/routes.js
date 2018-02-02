@@ -18,6 +18,7 @@ const Route = use('Route')
 
 Route
   .group(() => {
+    Route.get(':resource/search','ApiController.search')
     Route.resource(':resource', 'ApiController').apiOnly()
   })
   .prefix('api')

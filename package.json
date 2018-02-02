@@ -1,20 +1,22 @@
 {
-  "name": "Base Api Rest",
+  "name": "adonisrest",
   "version": "1.0.0",
-  "adonis-version": "1.0.0",
-  "description": "Base Api Rest controller in 10 minutes",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "node ace test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [
-    "adonisjs",
-    "adonis-app"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiancannata/adonisrest.git"
+  },
   "author": "",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christiancannata/adonisrest/issues"
+  },
+  "homepage": "https://github.com/christiancannata/adonisrest#readme",
   "dependencies": {
     "@adonisjs/ace": "^4.0.7",
     "@adonisjs/auth": "^2.0.10",
@@ -26,6 +28,8 @@
     "@adonisjs/lucid": "^4.0.24",
     "@adonisjs/session": "^1.0.19",
     "@adonisjs/shield": "^1.0.4",
+    "@adonisjs/validator": "^5.0.0",
+    "elasticsearch": "^14.1.0",
     "i": "^0.3.6",
     "mysql": "^2.15.0"
   },
